@@ -16,54 +16,54 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.cards{
-    padding: 10px;
+.card{
+    padding: 10px 10px 25px 10px;
     border-radius: 10px;
     background-color:hsl(0, 0%, 100%);
     width: 200px;
 }
-.first {
+.top {
     width: 100%;
 }
-.first img{
+.top img{
     height: 100%; 
     width: 100%; 
     display:block;
     border-radius: 5px;
 }
-p{
+
+.bottom{
+ padding: 0 15px;
+}
+.bottom p{
     text-align: center;
     margin-top: 10px;
 }
-.second{
- padding: 0 15px;
- margin-bottom: 15px;
-}
-.second .title{
+.bottom .title{
     font-size: 15px;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
 } 
-.second .description {
+.bottom .description {
     font-size: 10px;
     color:hsl(220, 15%, 55%);
     font-weight: 400;
 }
 
 @media only screen and (max-width: 375px) {
-    .cards {
+    .card {
         width: 70%;
         padding: 20px;
     }
-    .second {
+    .bottom {
         padding: unset;
         margin: 20px 0px;
     }
-    .second .title {
+    .bottom .title {
         font-size: 21px;
         padding: 0 12px;
     }
-    .second .description {
+    .bottom .description {
         margin-top: 20px;
         font-size: 14px;
         padding: 0 16px;
